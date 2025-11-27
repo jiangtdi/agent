@@ -20,7 +20,7 @@ class ZhipuQAChain:
                  model_name: str = "glm-4-plus",
                  temperature: float = 0.0,
                  top_k: int = 4,
-                 persist_directory: str = "chroma2",
+                 persist_directory: str = "llm-project/chroma2",
                  chat_history: list = None):
 
         self.model_name = model_name
